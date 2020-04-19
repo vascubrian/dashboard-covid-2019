@@ -10,7 +10,7 @@ const Header = (props) => {
       <div className="Header">
         Covid-19 {props.dashboard} {props.width < 1024 ? "" : " Dashboard"}
         <a
-          href="http://www.covid19trac.live"
+          href="https://github.com/miteshtagadiya/Covid-19-Global-Dashboard"
           target="_blank"
           rel="noopener noreferrer"
         >
