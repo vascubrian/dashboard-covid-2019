@@ -1,10 +1,10 @@
 import React, { Component } from "react";
-import GradientCardTitle from "components/ui/GradientCardTitle/GradientCardTitle";
-import SwitchBar from "components/ui/SwitchBar/SwitchBar";
-import SimpleLineChart from "components/charts/SimpleLineChart/SimpleLineChart";
-import CustomChart from "components/charts/PieChart/CustomChart";
-import GradientCardFooter from "components/ui/GradientCardFooter/GradientCardFooter";
-import SimplePieChart from "components/charts/SimplePieChart/SimplePieChart";
+import GradientCardTitle from "../../../../components/ui/GradientCardTitle/GradientCardTitle";
+import SwitchBar from "../../../../components/ui/SwitchBar/SwitchBar";
+import SimpleLineChart from "../../../../components/charts/SimpleLineChart/SimpleLineChart";
+import CustomChart from "../../../../components/charts/PieChart/CustomChart";
+import GradientCardFooter from "../../../../components/ui/GradientCardFooter/GradientCardFooter";
+import SimplePieChart from "../../../../components/charts/SimplePieChart/SimplePieChart";
 import Select from "react-select";
 
 class Analytics extends Component {

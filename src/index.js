@@ -4,7 +4,7 @@ import "./index.css";
 import { HashRouter } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
 import * as serviceWorker from "./serviceWorker";
-import ErrorBoundry from "components/ui/ErrorBoundry/ErrorBoundry";
+import ErrorBoundry from "./components/ui/ErrorBoundry/ErrorBoundry";
 import { Index } from "./Routes";
 
 const routing = (

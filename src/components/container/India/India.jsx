@@ -1,18 +1,18 @@
 import React, { Component } from "react";
-import "components/Backup/App.css";
+import "../../../components/Backup/App.css";
 import "react-table-6/react-table.css";
 import { withRouter } from "react-router-dom";
-import ErrorBoundary from "components/ui/ErrorBoundry/ErrorBoundry";
-import IndiaMap from "components/charts/IndiaMap/IndiaMap";
-import Footer from "components/ui/Footer/Footer";
-import Table from "components/container/India/SubComponents/Table";
-import Cards from "components/container/India/SubComponents/Cards";
-import "components/container/India/India.sass";
-import Header from "components/ui/Header/Header";
-import GradientCardTitle from "components/ui/GradientCardTitle/GradientCardTitle";
-import NumbersCard from "components/container/India/SubComponents/NumbersCard";
-import NavigationBar from "components/ui/NavigationBar/NavigationBar";
-import Analytics from "components/container/India/SubComponents/Analytics";
+import ErrorBoundary from "../../../components/ui/ErrorBoundry/ErrorBoundry";
+import IndiaMap from "../../../components/charts/IndiaMap/IndiaMap";
+import Footer from "../../../components/ui/Footer/Footer";
+import Table from "../../../components/container/India/SubComponents/Table";
+import Cards from "../../../components/container/India/SubComponents/Cards";
+import "../../../components/container/India/India.sass";
+import Header from "../../../components/ui/Header/Header";
+import GradientCardTitle from "../../../components/ui/GradientCardTitle/GradientCardTitle";
+import NumbersCard from "../../../components/container/India/SubComponents/NumbersCard";
+import NavigationBar from "../../../components/ui/NavigationBar/NavigationBar";
+import Analytics from "../../../components/container/India/SubComponents/Analytics";
 import StateWiseMap from "../../charts/IndiaMap/StateWiseMap";
 
 class India extends Component {

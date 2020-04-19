@@ -23,17 +23,7 @@ const Footer = (props) => {
             cursor: "pointer",
           }}
         >
-          <a
-            style={{ textDecoration: "none", color: "#404b69" }}
-            href="https://github.com/miteshtagadiya/Covid-19-Global-Dashboard"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <span style={{ marginRight: 10 }}>
-              <FontAwesomeIcon icon={["fab", "github"]} className="github" />
-            </span>
-            Github
-          </a>
+
         </div>
       </div>
       <div>
@@ -44,11 +34,8 @@ const Footer = (props) => {
             fontWeight: "bold",
             textDecoration: "none",
           }}
-          href="https://miteshtagadiya.js.org"
-          rel="noopener noreferrer"
-          target="_blank"
-        >
-          Mitesh Tagadiya
+         >
+          Ranjith Nambiar
         </a>
       </div>
     </div>

@@ -1,7 +1,7 @@
 import React, { Component } from "react";
-import SimpleLineChart from "components/charts/SimpleLineChart/SimpleLineChart";
-import SwitchBar from "components/ui/SwitchBar/SwitchBar";
-import Virus from "assets/virus.gif";
+import SimpleLineChart from "../../../../components/charts/SimpleLineChart/SimpleLineChart";
+import SwitchBar from "../../../../components/ui/SwitchBar/SwitchBar";
+import Virus from "../../../../assets/virus.gif";
 
 class Cards extends Component {
   constructor(props) {

@@ -1,9 +1,9 @@
 import React, { Component } from "react";
-import Virus from "assets/virus.gif";
-import Countrys from "utils/CountryList.json";
+import Virus from "../../../../assets/virus.gif";
+import Countrys from "../../../../utils/CountryList.json";
 import Select from "react-select";
-import SimpleLineChart from "components/charts/SimpleLineChart/SimpleLineChart";
-import Pagination from "components/ui/Pagination/Pagination";
+import SimpleLineChart from "../../../../components/charts/SimpleLineChart/SimpleLineChart";
+import Pagination from "../../../../components/ui/Pagination/Pagination";
 import _ from "lodash";
 
 class ChartsCard extends Component {

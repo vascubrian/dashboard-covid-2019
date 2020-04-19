@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import TinyChart from "components/charts/TinyChart";
+import TinyChart from "../../../../components/charts/TinyChart";
 import Popover from "react-popover";
 import ReactGA from "react-ga";
 

@@ -1,6 +1,6 @@
 import React, { Component } from "react";
-import DataCard from "components/ui/DataCard/DataCard";
-import Virus from "assets/virus.gif";
+import DataCard from "../../../../components/ui/DataCard/DataCard";
+import Virus from "../../../../assets/virus.gif";
 
 class Cards extends Component {
   render() {
