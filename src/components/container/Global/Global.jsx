@@ -122,11 +122,11 @@ class Global extends Component {
     });
     cardId.map((location) => {
       fetch(
-        `https://thevirustracker.com/free-api?countryTotals=ALL`,
-        {
-          method: "GET",
-        }
-      )
+      `https://thevirustracker.com/free-api?countryTimeline=${location}`,
+      {
+      header: { "Access-Control-Allow-Origin": "*" },
+      method: "GET",
+      }
         .then((res) => res.json())
         .then((response) => {
           this.setState({
