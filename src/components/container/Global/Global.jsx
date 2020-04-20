@@ -126,7 +126,7 @@ class Global extends Component {
       {
       header: { "Access-Control-Allow-Origin": "*" },
       method: "GET",
-      }
+      })
         .then((res) => res.json())
         .then((response) => {
           this.setState({
