@@ -122,7 +122,7 @@ class Global extends Component {
     });
     cardId.map((location) => {
       fetch(
-        `https://cors-proxy-pass.herokuapp.com/https://thevirustracker.com/free-api?countryTotals=ALL`,
+        `https://thevirustracker.com/free-api?countryTotals=ALL`,
         {
           method: "GET",
         }
