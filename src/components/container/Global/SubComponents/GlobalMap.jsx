@@ -1,6 +1,6 @@
 import React, { Component } from "react";
-import MapSwitchBar from "components/ui/MapSwitchBar/MapSwitchBar";
-import DataMap from "components/charts/DataMap/DataMap";
+import MapSwitchBar from "../../../../components/ui/MapSwitchBar/MapSwitchBar";
+import DataMap from "../../../../components/charts/DataMap/DataMap";
 import ReactTooltip from "react-tooltip";
 
 class GlobalMap extends Component {

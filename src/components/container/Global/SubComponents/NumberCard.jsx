@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import NumericCard from "components/ui/NumericCard/NumericCard";
+import NumericCard from "../../../../components/ui/NumericCard/NumericCard";
 
 class NumberCard extends Component {
   constructor(props) {

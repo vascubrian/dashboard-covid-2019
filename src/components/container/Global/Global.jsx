@@ -1,19 +1,19 @@
 import React, { Component } from "react";
-import "components/Backup/App.css";
+import "../../../components/Backup/App.css";
 import "react-table-6/react-table.css";
-import ErrorBoundary from "components/ui/ErrorBoundry/ErrorBoundry";
-import Countrys from "utils/CountryList.json";
+import ErrorBoundary from "../../../components/ui/ErrorBoundry/ErrorBoundry";
+import Countrys from "../../../utils/CountryList.json";
 import _ from "lodash";
-import "components/container/Global/Global.sass";
-import Header from "components/ui/Header/Header";
-import NavigationBar from "components/ui/NavigationBar/NavigationBar";
-import Footer from "components/ui/Footer/Footer";
-import Table from "components/container/Global/SubComponents/Table";
-import NumberCard from "components/container/Global/SubComponents/NumberCard";
-import Analytics from "components/container/Global/SubComponents/Analytics";
-import GlobalMap from "components/container/Global/SubComponents/GlobalMap";
-import Cards from "components/container/Global/SubComponents/Cards";
-import ChartsCard from "components/container/Global/SubComponents/ChartsCard";
+import "../../../components/container/Global/Global.sass";
+import Header from "../../../components/ui/Header/Header";
+import NavigationBar from "../../../components/ui/NavigationBar/NavigationBar";
+import Footer from "../../../components/ui/Footer/Footer";
+import Table from "../../../components/container/Global/SubComponents/Table";
+import NumberCard from "../../../components/container/Global/SubComponents/NumberCard";
+import Analytics from "../../../components/container/Global/SubComponents/Analytics";
+import GlobalMap from "../../../components/container/Global/SubComponents/GlobalMap";
+import Cards from "../../../components/container/Global/SubComponents/Cards";
+import ChartsCard from "../../../components/container/Global/SubComponents/ChartsCard";
 
 class Global extends Component {
   constructor(props) {
