@@ -3,9 +3,9 @@ pipeline {
     agent any
 
     environment {
-      CUSTOMER_NAME = "vascubrian"
+      CUSTOMER_NAME = "username"
       PROJECT_NAME = "Covid-2019"
-      def sshCopy="vascubrian@meuweke.koreasouth.cloudapp.azure.com"
+      def sshCopy="server"
     }
       stages('deploy') {
 
